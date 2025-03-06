@@ -4,7 +4,7 @@ function mincost(arr)
 
     while (arr.length > 1) {
         // Step 1: Sort the array
-        arr.sort((a, b) => a - b);  // O(N log N)
+        arr.sort()
 
         // Step 2: Pick and remove the two smallest ropes
         let first = arr.shift();  // Removes the first element
